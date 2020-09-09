@@ -1,4 +1,5 @@
-# Carpentry@Home Git workshop
+# 2020-09-09: CarpentryCon@Home git workshop
+
 Carpentry Con at Home Git workshop Part 2
 
 - git clone <url>: download the repo from the web to your computer
@@ -18,3 +19,9 @@ Carpentry Con at Home Git workshop Part 2
 - `git branch -d <branch_name>`: this will delete <branch_name> on your local computer
 - `git fetch --prune`: will update your local git tree with the remote
     - the prune will also delete references to branches that were deleted on the remote
+
+- Each pull request is independent from one another
+  - You won't know a merge conflict will happen until one of the PRs gets merged
+
+- `git rebase <branch>`: rebases your current branch against `<branch>`, where `<branch>` is usually `master` or `gh-pages`
+  - make sure you are already on the conflicting branch
