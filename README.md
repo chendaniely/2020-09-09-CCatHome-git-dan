@@ -2,6 +2,10 @@
 
 Etherpad: https://pad.carpentries.org/cchome-maintainer-git-skills
 
+This was the second time I taught this workshop,
+the video for the first time can be found here:
+https://www.youtube.com/watch?v=uvWhSYBkZJ0
+
 Carpentry Con at Home Git workshop Part 2
 
 - git clone <url>: download the repo from the web to your computer
