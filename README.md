@@ -1,5 +1,7 @@
 # 2020-09-09: CarpentryCon@Home git workshop
 
+Etherpad: https://pad.carpentries.org/cchome-maintainer-git-skills
+
 Carpentry Con at Home Git workshop Part 2
 
 - git clone <url>: download the repo from the web to your computer
