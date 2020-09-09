@@ -1,0 +1,119 @@
+  21  git clone git@github.com:chendaniely/2020-09-09-CCatHome-git-dan.git
+   22  ls
+   23  cd 2020-09-09-CCatHome-git-dan/
+   24  ls
+   25  nano README.md
+   26  git status
+   27  git diff
+   28  git add README.md
+   29  git status
+   30  git commit -m "talk about git clone"
+   31  git status
+   32  git push origin master
+   33  git status
+   34  git log --oneline
+   35  git log --oneline --graph --all
+   36  git --version
+   37  git branch
+   38  git branch -a
+   39  git branch my_first_branch
+   40  git log --oneline --graph --all
+   41  git switch my_first_branch
+   42  git asdf
+   43  git checkout master
+   44  git checkout my_first_branch
+   45  git status
+   46  nano README.md
+   47  explorer .
+   48  # open .
+   49  xdg-open .
+   50  code README.md
+   51  git status
+   52  git add README.md
+   53  git status
+   54  git commit -m "create and move to a new branch"
+   55  git status
+   56  cat README.md
+   57  git switch master
+   58  git checkout master
+   59  cat README.md
+   60  git switch my_first_branch
+   61  git branch -a
+   62  git log --oneline --graph --all
+   63  cat README.md
+   64  git push origin my_first_branch
+   65  git status
+   66  git checkout master
+   67  git switch master
+   68  git pull origin master
+   69  cat README.md
+   70  git status
+   71  git branch -a
+   72  git remote -v
+   73  git log --oneline --graph --all
+   74  git fetch --prune
+   75  git branch -a
+   83  git log --oneline --graph --all
+   84  git branch -d my_first_branch
+   85  git branch -a
+   86  git log --oneline --graph --all
+   87  # git switch -c branch_def
+   88  # git checkout -b branch_def
+   89  git switch -c branch_def
+   90  # git checkout -b branch_def
+   91  nano README.md
+   92  git status
+   93  git add README.md
+   94  git status
+   95  git commit -m 'branch creation shortcut + deleting branches'
+   96  git push origin branch_def
+   97  git switch master
+   98  git pull origin master
+   99  branch -a
+  100  git branch -a
+  101  git branch -d branch_def
+  102  git fetch --prune
+  103  git status
+  104  git pull origin master
+  105  git switch -c con1
+  106  code README.md
+  107  git status
+  108  git add README.md
+  109  gi commit -m 'contributor 1 adding section headers"
+'
+  110  git commit -m 'contributor 1 adding section headers'
+  111  git push origin con1
+  112  git switch master
+  113  git switch -c con2
+  114  code README.md
+  115  git status
+  116  git add README.md
+  117  git commit -m "keep date in title"
+  118  git push origin con2
+  119  git checkout master
+  120  git pull origin master
+  121  git log --oneline --graph --all
+  122  git branch -a
+  123  git switch con2
+  124  git rebase master
+  125  nano README.md
+  126  code README.md
+  127  git status
+  128  git add README.md
+  129  git status
+  130  git rebase --continue
+  131  git log --oneline --graph --all
+  132  git push origin con2
+  133  git push -f origin con2
+  134  git checkout master
+  135  git pull origin master
+  136  git fetch --prune
+  137  git branch -a
+  138  git branch -d con1 con2
+  139  git remote add upstream git@github.com:chendaniely/2020-09-09-CCatHome-git-dan.git
+  140  git remote -v
+  141  git status
+  142  git add whiteboard.png
+  143  git commit -m 'add whiteboard image'
+  144  git push origin master
+  145  history
